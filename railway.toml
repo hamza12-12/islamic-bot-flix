@@ -1,0 +1,8 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python railway_bot.py"
+
+[build.environment]
+PYTHON_VERSION = "3.9.0"
